@@ -2,8 +2,15 @@
 <CheatTable CheatEngineTableVersion="34">
   <CheatEntries>
     <CheatEntry>
+      <ID>38</ID>
+      <Description>"https://github.com/LingHsvan/JianPo-Trainer"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
       <ID>1</ID>
       <Description>"生命"</Description>
+      <LastState Value="597" RealAddress="1A48D99C704"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>"SoulOfBlade-Win64-Shipping.exe"+04E8BF80</Address>
@@ -18,6 +25,7 @@
     <CheatEntry>
       <ID>2</ID>
       <Description>"内息"</Description>
+      <LastState Value="142" RealAddress="1A48D99C774"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>"SoulOfBlade-Win64-Shipping.exe"+04E8BF80</Address>
@@ -32,6 +40,7 @@
     <CheatEntry>
       <ID>3</ID>
       <Description>"灵力"</Description>
+      <LastState Value="278" RealAddress="1A48D99C76C"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>"SoulOfBlade-Win64-Shipping.exe"+04E8BF80</Address>
@@ -46,6 +55,7 @@
     <CheatEntry>
       <ID>29</ID>
       <Description>"二段跳(0=无限)"</Description>
+      <LastState Value="0" RealAddress="1A48D99C388"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"SoulOfBlade-Win64-Shipping.exe"+04E8BF80</Address>
@@ -58,38 +68,125 @@
       </Offsets>
     </CheatEntry>
     <CheatEntry>
-      <ID>27</ID>
-      <Description>"剑体等级"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
+      <ID>46</ID>
+      <Description>"等级（修改此处无效，修改下拉列表有效）"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="126" RealAddress="1A474FEDEF4"/>
       <VariableType>4 Bytes</VariableType>
-      <Address>"SoulOfBlade-Win64-Shipping.exe"+04E8BF80</Address>
+      <Address>"SoulOfBlade-Win64-Shipping.exe"+04D52AD0</Address>
       <Offsets>
-        <Offset>AD4</Offset>
-        <Offset>228</Offset>
-        <Offset>720</Offset>
-        <Offset>B0</Offset>
-        <Offset>8</Offset>
+        <Offset>374</Offset>
+        <Offset>10</Offset>
+        <Offset>5F0</Offset>
+        <Offset>28</Offset>
       </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>37</ID>
-      <Description>"剑骨等级"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>"SoulOfBlade-Win64-Shipping.exe"+04E8BF80</Address>
-      <Offsets>
-        <Offset>AE4</Offset>
-        <Offset>228</Offset>
-        <Offset>720</Offset>
-        <Offset>B0</Offset>
-        <Offset>8</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>38</ID>
-      <Description>"https://github.com/LingHsvan/JianPo-Trainer"</Description>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>37</ID>
+          <Description>"剑骨"</Description>
+          <LastState Value="7" RealAddress="1A48D99CB24"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"SoulOfBlade-Win64-Shipping.exe"+04E8BF80</Address>
+          <Offsets>
+            <Offset>AE4</Offset>
+            <Offset>228</Offset>
+            <Offset>720</Offset>
+            <Offset>B0</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>27</ID>
+          <Description>"未打磨等级"</Description>
+          <LastState Value="81" RealAddress="1A48D99CB14"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"SoulOfBlade-Win64-Shipping.exe"+04E8BF80</Address>
+          <Offsets>
+            <Offset>AD4</Offset>
+            <Offset>228</Offset>
+            <Offset>720</Offset>
+            <Offset>B0</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>48</ID>
+          <Description>"厚重等级"</Description>
+          <LastState Value="5" RealAddress="1A48D99CB18"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"SoulOfBlade-Win64-Shipping.exe"+04E8BF80</Address>
+          <Offsets>
+            <Offset>AD8</Offset>
+            <Offset>228</Offset>
+            <Offset>720</Offset>
+            <Offset>B0</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>47</ID>
+          <Description>"锋利等级"</Description>
+          <LastState Value="4" RealAddress="1A48D99CB1C"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"SoulOfBlade-Win64-Shipping.exe"+04E8BF80</Address>
+          <Offsets>
+            <Offset>ADC</Offset>
+            <Offset>228</Offset>
+            <Offset>720</Offset>
+            <Offset>B0</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>45</ID>
+          <Description>"纤细等级"</Description>
+          <LastState Value="3" RealAddress="1A48D99CB20"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"SoulOfBlade-Win64-Shipping.exe"+04E8BF80</Address>
+          <Offsets>
+            <Offset>AE0</Offset>
+            <Offset>228</Offset>
+            <Offset>720</Offset>
+            <Offset>B0</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>43</ID>
+          <Description>"术法深度"</Description>
+          <LastState Value="9" RealAddress="1A48D99CB2C"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"SoulOfBlade-Win64-Shipping.exe"+04E8BF80</Address>
+          <Offsets>
+            <Offset>AEC</Offset>
+            <Offset>228</Offset>
+            <Offset>720</Offset>
+            <Offset>B0</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>42</ID>
+          <Description>"通灵程度"</Description>
+          <LastState Value="17" RealAddress="1A48D99CB28"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"SoulOfBlade-Win64-Shipping.exe"+04E8BF80</Address>
+          <Offsets>
+            <Offset>AE8</Offset>
+            <Offset>228</Offset>
+            <Offset>720</Offset>
+            <Offset>B0</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
