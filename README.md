@@ -5,6 +5,8 @@
 
 9月29日中午加入其他剑体打磨等级的修改。
 
+游戏10月10日的更新导致CT失效，待更新。
+
 ![QQ截图20210929115439](https://user-images.githubusercontent.com/91541821/135200669-047da007-7d28-4a0c-b9c9-2ad8aee0f6ca.png)
 
 ![QQ截图20210929001934](https://user-images.githubusercontent.com/91541821/135127405-7fa34e0d-d787-4ec6-b066-c11d3a65c86f.png)
